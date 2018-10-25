@@ -2,7 +2,12 @@
   "name": "openiot_vue_theme",
   "version": "1.0.0",
   "description": "Vue theme for the OpenIOT package",
-  "main": "index.js",
+  "author": "Bondzie Chris",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^2.1.14",
+    "vue": "^2.5.17"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -20,15 +25,19 @@
     "theme",
     "iot"
   ],
-  "author": "Bondzie Chris",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Chris Bondzie"
+    },
+    {
+      "name": "Emmanuel Oppong-Sarpong",
+      "email": "esarpong51@gmail.com",
+      "url": "http://sarps.github.io"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/OpenSIOT/vue-theme/issues"
   },
-  "homepage": "https://github.com/OpenSIOT/vue-theme#readme",
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "laravel-mix": "^2.1.14",
-    "vue": "^2.5.17"
-  }
+  "homepage": "https://github.com/OpenSIOT/vue-theme#readme"
 }
