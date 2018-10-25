@@ -1,14 +1,13 @@
 const Vue = require('vue');
 
-import IOTLight from './components/Light.vue'
+import Light from './components/Light.vue'
 
+window.ui = new Vue({
 
-new Vue({
-
-    el: '[openiotapp]',
+    el: "[openiot-app]",
 
     components: {
-        IOTLight
+        'iot-light': Light
     },
 
 });
