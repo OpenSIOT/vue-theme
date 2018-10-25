@@ -1,6 +1,7 @@
 {
   "name": "openiot_vue_theme",
   "version": "1.0.0",
+  "main": "src/app.js",
   "description": "Vue theme for the OpenIOT package",
   "author": "Bondzie Chris",
   "dependencies": {
