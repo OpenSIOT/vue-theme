@@ -1,3 +1,5 @@
+![OpenIOT Logo](openiot.png)
+
 # OpenIOT Vue Theme
 
 Vue theme for the OpenIOT package
